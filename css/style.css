@@ -1,4 +1,25 @@
-.page {
+.body {
   background-color: #fff;
   color: #212121;
+}
+ul {
+  list-style: none;
+}
+
+/* Site nav*/
+.site-nav a {
+  color: #2196f3;
+}
+.auth-nav a {
+  color: #757575;
+}
+.hero-title {
+  background-color: #2f303a;
+  color: #ffff;
+}
+.section-title {
+  color: #212121;
+}
+.main {
+  color: #757575;
 }
