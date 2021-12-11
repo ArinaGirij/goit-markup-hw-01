@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #ffff;
+  --bgc: #2196f3;
 }
 .body {
   background-color: #fff;
@@ -25,9 +26,7 @@ ul {
 .section-title {
   color: var(--title-text-color);
 }
-.main {
-  color: var(--primary-text-color);
-}
+
 /* Feature-list */
 
 .feature-list .title {
@@ -37,4 +36,18 @@ ul {
   color: var(--primary-text-color);
 }
 
+}
+/*Button*/
+
+.button {
+    color: var(--accent-color);
+    background-color: #2196f3;
+
+    font-size: 16px;
+    padding: ;
+}
+.button.primary{
+    background-color:var(--bgc);
+    color: var(--accent-color);
+}
 /* Footer WebStudio */
