@@ -1,3 +1,8 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #ffff;
+}
 .body {
   background-color: #fff;
   color: #212121;
@@ -11,15 +16,25 @@ ul {
   color: #2196f3;
 }
 .auth-nav a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .hero-title {
   background-color: #2f303a;
-  color: #ffff;
+  color: var(--accent-color);
 }
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .main {
-  color: #757575;
+  color: var(--primary-text-color);
 }
+/* Feature-list */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.paragraph {
+  color: var(--primary-text-color);
+}
+
+/* Footer WebStudio */
