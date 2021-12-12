@@ -12,12 +12,12 @@ ul {
   list-style: none;
 }
 
-/* Site nav*/
+/* Site nav index html*/
 .site-nav a {
-  color: #2196f3;
+  color: #212121;
 }
 .auth-nav a {
-  color: var(--primary-text-color);
+  color: #757575;
 }
 .hero-title {
   background-color: #2f303a;
@@ -36,18 +36,22 @@ ul {
   color: var(--primary-text-color);
 }
 
-}
 /*Button*/
 
 .button {
-    color: var(--accent-color);
-    background-color: #2196f3;
+  color: var(--accent-color);
+  background-color: #2196f3;
 
-    font-size: 16px;
-    padding: ;
+  font-size: 16px;
+  padding: ;
 }
-.button.primary{
-    background-color:var(--bgc);
-    color: var(--accent-color);
+.button.primary {
+  background-color: var(--bgc);
+  color: var(--accent-color);
 }
 /* Footer WebStudio */
+
+/* Portfolio 
+  primary-text-color: #212121;
+  secondary-text-color: #757575;
+  accent-color: #2196f3; */
